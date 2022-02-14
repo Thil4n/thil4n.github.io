@@ -717,7 +717,7 @@ body{
     <img class="frame-img">
   </div>
   <div class="col-sm-6">
-    <img src="https://hacksland.net/test/vesak/img/paper.png" class="paper">
+    <img src="img/paper.png" class="paper">
     <h1 id="writer"></h1>
     <div class="bottm_buton_set">
       <button class="btn prev_btn">පෙර රූප රාමුව</button>
@@ -731,11 +731,11 @@ body{
   <div class="curtain">
   <div class="curtain-wrapper">
     <div class="curtain-panel curtain-left">
-      <img src="https://hacksland.net/test/vesak/img/curtain-left-0.jpg">
+      <img src="img/curtain-left-0.jpg">
     </div>
   
     <div class="curtain-panel curtain-right">
-     <img src="https://hacksland.net/test/vesak/img/curtain-right-0.jpg">
+     <img src="img/curtain-right-0.jpg">
     </div>
   </div>
 </div>
@@ -743,26 +743,26 @@ body{
 
 <div class="content">
 <ul class='circle-container'>
-<li><img title = " පලමු රූප රාමුව" data-id="1" src="https://hacksland.net/test/vesak/img/1.jpg"></li>
-<li><img title = " දෙවන රූප රාමුව" data-id="2" src="https://hacksland.net/test/vesak/img/2.jpg"></li>
-<li><img title = " තෙවන රූප රාමුව" data-id="3" src="https://hacksland.net/test/vesak/img/3.jpg"></li>
-<li><img title = " සිවුවන රූප රාමුව" data-id="4" src="https://hacksland.net/test/vesak/img/4.jpg"></li>
-<li><img title = " පස්වන රූප රාමුව" data-id="5" src="https://hacksland.net/test/vesak/img/5.jpg"></li>
-<li><img title = " හයවන රූප රාමුව" data-id="6" src="https://hacksland.net/test/vesak/img/6.jpg"></li>
-<li><img title = " හත්වන රූප රාමුව" data-id="7" src="https://hacksland.net/test/vesak/img/7.jpg"></li>
-<li><img title = " අටවන රූප රාමුව" data-id="8" src="https://hacksland.net/test/vesak/img/8.jpg"></li>
+<li><img title = " පලමු රූප රාමුව" data-id="1" src="img/1.jpg"></li>
+<li><img title = " දෙවන රූප රාමුව" data-id="2" src="img/2.jpg"></li>
+<li><img title = " තෙවන රූප රාමුව" data-id="3" src="img/3.jpg"></li>
+<li><img title = " සිවුවන රූප රාමුව" data-id="4" src="img/4.jpg"></li>
+<li><img title = " පස්වන රූප රාමුව" data-id="5" src="img/5.jpg"></li>
+<li><img title = " හයවන රූප රාමුව" data-id="6" src="img/6.jpg"></li>
+<li><img title = " හත්වන රූප රාමුව" data-id="7" src="img/7.jpg"></li>
+<li><img title = " අටවන රූප රාමුව" data-id="8" src="img/8.jpg"></li>
 </ul>
 
 
-<img class="img-0" src="https://hacksland.net/test/vesak/img/0.png">
-<img class="bg"  src="https://hacksland.net/test/vesak/img/bg.png">
+<img class="img-0" src="img/0.png">
+<img class="bg"  src="img/bg.png">
 
 <div class="lotus-animation left" style="display: none;">
-  <img class="lotus"  src="https://hacksland.net/test/vesak/img/lotus.png">
+  <img class="lotus"  src="img/lotus.png">
 </div>
 
 <div class="lotus-animation right" style="display: none;">
-  <img class="lotus" src="https://hacksland.net/test/vesak/img/lotus.png">
+  <img class="lotus" src="img/lotus.png">
 </div>
 
 <div class="bottom-led-pannel">
@@ -1463,7 +1463,7 @@ body{
   <h2>මෙම වෙබ් පිටුව ජංගම දුරකතන තිරයෙන් නැරබීමට නොහැකිය.</h2>
 </div>
 
-<audio id="audio" src="https://hacksland.net/test/vesak/songs/audio_1.mp3"></audio>
+<audio id="audio" src="songs/audio_1.mp3"></audio>
 </body>
 <script type="8be92d8bcce2c2413de8ea88-text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script type="8be92d8bcce2c2413de8ea88-text/javascript">
@@ -1673,7 +1673,7 @@ $(".circle-container li img").click(function () {
     $(".bottm_buton_set .next_btn").attr("disabled", "disabled");
   }
 
-  $(".modal .frame-img").attr("src", "https://hacksland.net/test/vesak/img/" + id + ".jpg");
+  $(".modal .frame-img").attr("src", "img/" + id + ".jpg");
   document.getElementById("audio").play();
   $(".modal").fadeIn(1000);
   modal_led_animation();
@@ -1689,7 +1689,7 @@ $(".bottm_buton_set .next_btn").click(function () {
  
   slide++;
 
-  $(".modal .frame-img").attr("src", "https://hacksland.net/test/vesak/img/" + slide + ".jpg").stop(true,true).hide().fadeIn(1000);
+  $(".modal .frame-img").attr("src", "img/" + slide + ".jpg").stop(true,true).hide().fadeIn(1000);
   type_writer(slide);
     
   if (slide == 8) {
@@ -1706,7 +1706,7 @@ $(".bottm_buton_set .prev_btn").click(function () {
  
   slide--;
 
-  $(".modal .frame-img").attr("src", "https://hacksland.net/test/vesak/img/" + slide + ".jpg").stop(true,true).hide().fadeIn(1000);
+  $(".modal .frame-img").attr("src", "img/" + slide + ".jpg").stop(true,true).hide().fadeIn(1000);
   type_writer(slide);
     
   if (slide == 1) {
